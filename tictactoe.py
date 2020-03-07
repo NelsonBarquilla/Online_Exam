@@ -35,7 +35,7 @@ def player_x_winner():
 
 
 def player_o_winner():
-    print(" "+player_x_name+" wins!")
+    print(" "+player_o_name+" wins!")
 
 
 def draw_checker(box):
