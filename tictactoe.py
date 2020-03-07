@@ -1,9 +1,7 @@
 import os;
 import time;
-import random;
 
 
-#Board
 box = ["", " ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
@@ -54,7 +52,6 @@ while True:
     os.system('cls')
     interface()
 
-    #Player X
     print(" ")
     choose_box = int(input("Please choose a box "+player_x_name+": "))
 
@@ -84,7 +81,6 @@ while True:
         print("It's a draw!")
         break
 
-    # Player O
     print(" ")
     choose_box = int(input("Please choose a box "+player_o_name+": "))
 
